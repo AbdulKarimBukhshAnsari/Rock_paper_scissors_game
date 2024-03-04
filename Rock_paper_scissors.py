@@ -10,7 +10,7 @@ while True:
     if option_inp=="q":
         print("Ok thanks for your time!")
         break
-    elif option_inp not in option :
+    elif option_inp not in option : 
         print("Kindly Choose appropiate option!")
         continue
     computer_pick=rd.choice(option)
